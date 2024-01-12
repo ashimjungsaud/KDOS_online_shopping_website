@@ -1,0 +1,154 @@
+*{
+  margin: 0;
+  padding: 0;
+  /* text-decoration: none; */
+  
+}
+
+a{
+    text-decoration: none;
+}
+
+h1,h2,h3{
+    font-family:'Times New Roman', Times, serif;
+}
+
+p{
+   font-family:Arial, Helvetica, sans-serif;
+}
+
+.header{
+    display: flex;
+    background-color: black;
+    color: PaleGoldenrod;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+
+.company img{
+    padding-top: 8px;
+    padding-left: 10px;
+}
+
+.company h1{
+    padding-left: 10px;
+    padding-top: 26px;
+}
+
+.company{
+    display: flex;
+}
+
+.searchBar input[type=text] {
+  float: left;
+  display: block;
+  color: black;
+  text-align: left;
+  padding: 2px 4px;
+  text-decoration: none;
+  font-size: 17px;
+  height: 28px;
+  justify-content: flex-end;
+}
+
+.searchBar {
+    padding-top: 20px;
+    justify-content: end;
+}
+
+.nav {
+   display: flex;
+   justify-content: space-around;
+   padding-top: 10px;
+   background-color:darkmagenta;
+}
+
+.nav a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.flashSale{
+    padding: 20px;
+    font-size: 22px;
+}
+
+.saleItem{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.saleItem img{
+    width: 300px;
+}
+
+.sale-item{
+    cursor: pointer;
+}
+
+.sale-item:hover{
+  padding: 10px;
+  border: 1px solid black;
+  transition: 0.4s;
+}
+
+.aboutUs{
+   padding: 30px;
+}
+
+.aboutUs h2{
+    text-align: center;
+}
+
+.shop img{
+    width: 100px;
+}
+
+.meImage{
+    padding-top: 20px;
+}
+
+.meImage img{
+   width: 80px;
+}
+
+.Shop_Me {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    padding-right: 50px;
+}
+
+.Shop_Me button{
+    width: 100px;
+    height: 30px;
+}
+
+.contactUs{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    background: linear-gradient(
+    to right, 
+    #000000 0%, 
+    #000000 50%, 
+    darkmagenta 50%, 
+    darkmagenta 100%
+  );
+}
+
+.contact a{
+    text-decoration: none;
+    color: white;
+}
+
+.location{
+    color:white;
+}
+
+
+
